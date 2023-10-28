@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 40px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+img {
+    width: 400px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start; /* За да запазите заглавията на една линия */
+}
+
+article {
+    flex: 1; /* За да заеме останалото пространство в wrapper */
+}
+
+aside {
+    width: 30%; /* Променете тази стойност според вашите предпочитания */
+}
+
+h2 {
+    margin-top: 0; /* За да премахнете горния отстъп на заглавията */
+}

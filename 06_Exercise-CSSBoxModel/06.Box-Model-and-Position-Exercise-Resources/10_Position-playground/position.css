@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Задава височината на целия екран */
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section, .bottom-section {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Цвят на текста (бял) */
+    font-size: 24px; /* Размер на шрифта */
+    font-weight: bold; /* Дебелина на шрифта */
+    background-size: cover; /* Запълва фона с изображението */
+}
+
+.top-section {
+    background: blue url('images/picture1.jpg') no-repeat center center;
+}
+
+.bottom-section {
+    background: red url('images/picture2.jpg') no-repeat center center;
+}

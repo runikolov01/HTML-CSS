@@ -1,0 +1,23 @@
+#worldCupMain{
+    background-color:  #a6e1ec;
+    width: 700 px;
+    height: 730 px;
+    border:  1px solid #000000;
+    Padding: 10px 20px;
+}
+#beloHor{
+    Width: 595px;
+    Padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #000000;
+}
+#firstImg{
+    margin-right: 1000px;
+    vertical-align: center;
+  
+}
+.text{
+    color: #3f51b5;
+}
+
